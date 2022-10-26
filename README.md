@@ -1,7 +1,7 @@
 # openplc_podman
 Podman/docker container for running OpenPLC Editor.
 
-(OpenPLC)[https://openplcproject.com/] is a IEEC61131 compatible IDE+runtime framework based on (Beremiz)[https://beremiz.org/]. At the time of writing
+[OpenPLC](https://openplcproject.com/) is a IEEC61131 compatible IDE+runtime framework based on [Beremiz](https://beremiz.org/). At the time of writing
 this tool it is problematic with several legacy python2.7 dependencies, making it unstable on modern distributions. This repository is used to build an run  OpenPLC Editor on any linux distribution using podman containers.
 
 On the host, just clone this repository and run `run.sh`. This will:
